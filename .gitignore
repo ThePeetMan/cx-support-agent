@@ -10,3 +10,4 @@ coverage/
 uploads/
 *.tsbuildinfo
 apps/api/uploads/
+doc4me/
