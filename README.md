@@ -108,6 +108,15 @@ See [`docs/DEPLOY.md`](docs/DEPLOY.md) for step-by-step Vercel + Fly.io + Neon +
 
 Set env vars from `.env.example` in each service. Run migrations against production DB before seeding demo content.
 
+## Push to GitHub
+
+```bash
+gh repo create ThePeetMan/cx-support-agent --public --source=. --remote=origin --push \
+  --description "AI customer support platform: RAG, agents, widget, escalation"
+```
+
+Then pin the repo on your profile and add topics: `customer-support`, `rag`, `chatbot`, `typescript`, `nextjs`, `ai-agents`, `pgvector`.
+
 ## GitHub profile tips
 
 Pin this repo and update your bio:
