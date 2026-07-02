@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1020;
+  --foreground: #eef2ff;
+  --card: #121933;
+  --accent: #6366f1;
+  --muted: #94a3b8;
+}
+
+body {
+  background: radial-gradient(circle at top, #1e1b4b, var(--background));
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+.card {
+  background: color-mix(in srgb, var(--card) 92%, white 8%);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 16px;
+}
+
+.input {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(15, 23, 42, 0.8);
+  padding: 0.75rem 1rem;
+  color: var(--foreground);
+}
+
+.button {
+  border-radius: 10px;
+  background: var(--accent);
+  color: white;
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+}
+
+.button.secondary {
+  background: rgba(148, 163, 184, 0.15);
+}

@@ -1,0 +1,15 @@
+{
+  "name": "@cx/widget",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild src/widget.ts --bundle --minify --outfile=dist/widget.js --format=iife --global-name=CxSupportWidget",
+    "dev": "esbuild src/widget.ts --bundle --outfile=dist/widget.js --format=iife --global-name=CxSupportWidget --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo 'no lint configured'"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.1",
+    "typescript": "^5.8.2"
+  }
+}

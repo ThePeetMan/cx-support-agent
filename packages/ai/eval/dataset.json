@@ -1,0 +1,62 @@
+[
+  {
+    "question": "How do I request a refund?",
+    "expectedDocumentTitles": ["Refund Policy"]
+  },
+  {
+    "question": "How long do refunds take to process?",
+    "expectedDocumentTitles": ["Refund Policy"]
+  },
+  {
+    "question": "What shipping options do you offer?",
+    "expectedDocumentTitles": ["Shipping & Delivery"]
+  },
+  {
+    "question": "How can I track my order?",
+    "expectedDocumentTitles": ["Shipping & Delivery"]
+  },
+  {
+    "question": "How do I update my payment method?",
+    "expectedDocumentTitles": ["Account & Billing"]
+  },
+  {
+    "question": "Can I change my subscription plan?",
+    "expectedDocumentTitles": ["Account & Billing"]
+  },
+  {
+    "question": "The app will not load, what should I do?",
+    "expectedDocumentTitles": ["Technical Support"]
+  },
+  {
+    "question": "How do I reset my password?",
+    "expectedDocumentTitles": ["Technical Support"]
+  },
+  {
+    "question": "Where do I find billing settings?",
+    "expectedDocumentTitles": ["Account & Billing", "Refund Policy"]
+  },
+  {
+    "question": "Do you offer express shipping?",
+    "expectedDocumentTitles": ["Shipping & Delivery"]
+  },
+  {
+    "question": "What is the refund window?",
+    "expectedDocumentTitles": ["Refund Policy"]
+  },
+  {
+    "question": "My payment failed, how do I fix billing?",
+    "expectedDocumentTitles": ["Account & Billing"]
+  },
+  {
+    "question": "How do I escalate to a human agent?",
+    "expectedDocumentTitles": ["Technical Support"]
+  },
+  {
+    "question": "Is overnight shipping available?",
+    "expectedDocumentTitles": ["Shipping & Delivery"]
+  },
+  {
+    "question": "How do I cancel and get my money back?",
+    "expectedDocumentTitles": ["Refund Policy"]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd ../.. && pnpm widget:build && pnpm --filter @cx/web build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "installCommand": "cd ../.. && pnpm install --frozen-lockfile"
+}
