@@ -5,6 +5,7 @@
   "description": "AI customer support platform: RAG knowledge base, LangGraph agent, embeddable widget",
   "scripts": {
     "dev": "pnpm --parallel --filter @cx/api --filter @cx/web dev",
+    "dev:stack": "bash scripts/dev.sh",
     "dev:api": "pnpm --filter @cx/api dev",
     "dev:web": "pnpm --filter @cx/web dev",
     "dev:worker": "pnpm --filter @cx/api dev:worker",

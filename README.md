@@ -43,6 +43,14 @@ pnpm dev:worker
 pnpm dev:web
 ```
 
+Or use the helper (skips API if port 3001 is already in use):
+
+```bash
+pnpm dev:stack
+```
+
+If you see `EADDRINUSE :::3001`, an API process is already running — use the existing one or stop it with `lsof -ti :3001 | xargs kill`.
+
 - Admin UI: http://localhost:3000
 - Demo login: `admin@cx-demo.com` / `demo12345`
 - Widget demo: http://localhost:3000/demo
